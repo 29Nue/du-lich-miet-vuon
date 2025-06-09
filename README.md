@@ -22,6 +22,8 @@
 - SharedPreferences / Room (lưu trữ local)
 - Git & GitHub để quản lý source code
 ---
+## 🎥 Demo Ứng Dụng
+📹 [Xem video demo trên Google Drive](https://drive.google.com/file/d/1HBiCwwzaSblmfWstPiNMlg4JPZf9vQwT/view?usp=drive_link)
 ## 🚀 Cài đặt & chạy thử
 ```bash
 git clone https://github.com/29Nue/du-lich-miet-vuon.git
