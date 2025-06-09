@@ -1,0 +1,220 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">QuanBaDuLichMietVuon</string>
+    <string name="open" tools:ignore="MissingTranslation">Open</string>
+    <string name="close" tools:ignore="MissingTranslation">Close</string>
+
+    <string name="login">Đăng Nhập</string>
+    <string name="explore_experience">KHÁM PHÁ VÀ TRẢI NGHIỆM</string>
+    <string name="famous_tourist_places">ĐỊA ĐIỂM DU LỊCH NỔI TIẾNG</string>
+    <string name="discover_hotels">KHÁCH SẠN CAO CẤP Ở VĨNH LONG </string>
+
+    <string-array name="visibility_options">
+        <item>Công khai</item>
+        <item>Riêng tư</item>
+    </string-array>
+
+    <string name="vl_hotel">📌 Khách Sạn Vĩnh Long Cửu Long</string>
+
+    <string name="sg_hotel">📌 Khách Sạn Sài Gòn – Vĩnh Long</string>
+
+    <string name="book_tour">ĐẶT TOUR NGAY!</string>
+    <string name="gth_food">Đặc sản Vĩnh Long: Khám phá tinh hoa ẩm thực vùng đất Tây Nam Bộ</string>
+    <string name="what_to_eat_where_to_stay">Ăn Gì - Ở Đâu - Chơi Gì - Vĩnh Long Miệt Vườn</string>
+
+    <string name="tvTitle">✨ DU LỊCH MIỆT VƯỜN VĨNH LONG ✨</string>
+    <string name="tvDesc1">🚣‍♂️ Vĩnh Long từ lâu đã nổi tiếng là điểm đến lý tưởng của miền Tây để du khách có thể du ngoạn, khám phá văn hóa miền sông nước và tham gia các loại hình giải trí độc đáo. Đến với Vĩnh Long, du khách có cơ hội chiêm ngưỡng những miệt vườn cây ăn trái sai cành trĩu quả, ngắm hoàng hôn bên bờ sông Tiền hiền hòa, vui chơi ở các khu du lịch sinh thái hoặc tham quan những ngôi chùa cổ kính, uy nghiêm.</string>
+    <string name="tvDesc2">📌 Dưới đây,tôi sẽ chia sẻ những thông tin hữu ích để bạn có thể bỏ túi cho chuyến đi Vĩnh Long sắp tới nhé!</string>
+    <string name="tvDesc3">🌾 Vĩnh Long là vùng đất màu mỡ với 90% đất đai trồng lúa. Ngoài ra, mỗi năm người dân Vĩnh Long còn thu hoạch hàng trăm ngàn tấn hoa quả các loại như: bưởi, nhãn, dừa, cam,...</string>
+    <string name="tvDesc4">🏕️ Vĩnh Long có tiềm năng lớn về phát triển du lịch: du lịch sinh thái, du lịch văn hóa, tâm linh, thương mại.</string>
+    <string name="tvBestTime">⏳DU LỊCH VĨNH LONG VÀO THỜI ĐIỂM NÀO?</string>
+    <string name="tvWeather1">☀️ Khí hậu Vĩnh Long là nhiệt đới gió mùa, quanh năm nóng ấm, khí hậu rất mát mẻ, nhiệt độ trung bình trong năm là 27 độ C. Ở Vĩnh Long mùa mưa thường kéo dài từ tháng 4 đến tháng 11, mùa nắng từ tháng 5 đến tháng 10. Do đó, du khách hầu như có thể tham quan Vĩnh Long bất cứ mùa nào trong năm.</string>
+    <string name="tvWeather2">🌳 Chỉ có điều, mùa mưa chính là thời điểm của những vụ mùa hoa trái sum suê ở Vĩnh Long, do đó, du khách sẽ vừa được thưởng thức trái cây thơm ngon, tận hưởng không khí miệt vườn trong lành, mát mẻ.</string>
+    <string name="tvAccomTitle">🏨 ĐỊA CHỈ LƯU TRÚ KHI Ở VĨNH LONG</string>
+    <string name="tvAccomDesc1">🏡 Ở Vĩnh Long có rất nhiều loại hình lưu trú “homestay” (hình thức trọ tại nhà người dân địa phương). Với loại hình lưu trú này, du khách có cơ hội trải nghiệm cuộc sống tại nhà dân, gần gũi với thiên nhiên, hiểu thêm về nét văn hóa, sinh hoạt của người dân vùng đất Vĩnh Long rất thú vị.</string>
+    <string name="tvAccomDesc2">🌿 Lựa chọn khác, du khách có thể thuê nhà nghỉ, khách sạn hoặc cắm trại… Một số khách sạn du khách có thể tham khảo nếu muốn lưu trú khi đến Vĩnh Long là khách sạn Hoàng Hảo, khách sạn Phượng Hoàng, khách sạn Sài Gòn – Vĩnh Long, khách sạn Cửu Long, khách sạn Ngũ Long, khách sạn Tài Nguyên, khách sạn Khánh Quỳnh…</string>
+    <string name="attractions_title">NHỮNG ĐIỂM DU LỊCH HẤP DẪN Ở VĨNH LONG</string>
+    <string name="truong_huy">Khu du lịch Trường Huy: Nằm ở xã Trường An...</string>
+    <string name="cu_lao_an_binh">Cù Lao An Bình: Khu du lịch sinh thái vườn trái cây nổi tiếng...</string>
+    <string name="vinh_sang">Khu du lịch sinh thái Vinh Sang: Nơi khám phá miệt vườn Nam Bộ...</string>
+    <string name="tien_chau">Chùa Tiên Châu: Được xây dựng năm 1750...</string>
+    <string name="mang_thit">Làng đất nung Mang Thít: là một trong những địa phương có lò gạch, gốm thủ công lớn nhất vùng đồng bằng sông Cửu Long. Bạn hãy ghé thăm Làng đất nung Mang Thít khi đến Vĩnh Long nhé.</string>
+    <string name="cho_noi_tra_on">Chợ nổi Trà Ôn: thuộc huyện Trà Ôn, tỉnh Vĩnh Long, cách vàm Trà Ôn 250m, Chợ nổi Trà Ôn là nằm trên hạ lưu sông Hậu có chiều dài trên 300m. Chợ nổi Trà Ôn là chợ đầu mối, nơi các sản vật được phân phối theo dạng sỉ, nông sản, trái cây.</string>
+    <string name="cuisine_title">ẨM THỰC VĨNH LONG</string>
+    <string name="food_intro">Hành trình đi du lịch Vĩnh Long của du khách sẽ thật sự trọn vẹn nếu du khách khám phá những đặc sản nổi tiếng của vùng đất Vĩnh Long.</string>
+    <string name="cam_xoan_title">Cam xoàn Trà Ôn</string>
+    <string name="cam_xoan_desc">Cam xoàn Trà Ôn là một đặc sản du lịch Vĩnh Long được nhiều khách du lịch mua về làm quà sau mỗi chuyến đi du lịch Vĩnh Long. Cam xoàn Trà Ôn là một loại cam có vỏ mỏng, vị ngọt thanh, múi cam căng tròn, mọng nước và rất thơm. Ở Vĩnh Long thì cam xoàn Trà Ôn được trồng nhiều ở thị xã Trà Ôn và Tam Bình.</string>
+    <string name="thanh_tra_title">Trái thanh trà</string>
+    <string name="thanh_tra_desc">Trái Thanh Trà được trồng phổ biến ở Vĩnh Long. Trái thanh trà chua thường được dùng để pha với đường làm nước giải khát trong những ngày nắng nóng, còn loại ngọt thì du khách có thể ăn ngay.</string>
+    <string name="ca_tai_tuong_title">Cá tai tượng chiên xù</string>
+    <string name="ca_tai_tuong_desc">Cá tai tượng được bán ở các chợ hải sản hay chợ nổi Trà Ôn, là loại cá đặc sản của miền Tây. Có nhiều cách để chế biến cá tai tượng nhưng món cá tai tượng chiên xù thì để lại ấn tượng khó quên nhất cho du khách. Món cá tai tượng chiên xù ăn kèm với đĩa bánh tráng, cuộn thêm rau và chấm mắm nêm thì chuẩn hương vị miền Tây.</string>
+    <string name="chuot_dong_title">Chuột đồng nướng</string>
+    <string name="chuot_dong_desc">Chuột đồng nướng là món ăn dân dã của nông dân Vĩnh Long. Chuột đồng ở Vĩnh Long thường sinh sống nhiều trên các ruộng lúa, ăn thóc, gạo nên thịt khi nướng rất ngọt, đậm đà, thơm ngon.</string>
+
+    <string name="search_hint">Tìm chỗ ở...</string>
+    <string name="all">Tất Cả</string>
+    <string name="hotel">Khách Sạn</string>
+    <string name="homestay">Nhà Dân</string>
+    <string name="ecolodge">Nhà Nghỉ Sinh Thái</string>
+    <string name="guesthouse">Nhà Nghỉ</string>
+    <string name="accom_category_vl">DANH MỤC KHÁCH SẠN Ở VĨNH LONG</string>
+    <string name="accom_list_vl">DANH SÁCH KHÁCH SẠN Ở VĨNH LONG</string>
+    <string name="lsdt">LỊCH SỬ ĐẶT TOUR</string>
+
+    <string name="book_tour1">ĐẶT TOUR CÓ SẲN</string>
+    <string name="fixed_tour">Tour Cố Định</string>
+    <string name="custom_tour">Tour Tự Do</string>
+    <string name="tour_name">Tên Tour</string>
+    <string name="departure_location">Địa Điểm Khởi Hành</string>
+    <string name="enter_departure_location">Nhập địa điểm khởi hành</string>
+    <string name="start_date">Ngày Bắt Đầu</string>
+    <string name="select_date">Chọn ngày</string>
+    <string name="end_date">Ngày Kết Thúc</string>
+    <string name="customer_name">Tên Khách Hàng</string>
+    <string name="enter_name">Nhập tên</string>
+    <string name="customer_phone">Số Điện Thoại</string>
+    <string name="enter_phone">Nhập số điện thoại</string>
+    <string name="customer_count">Số Lượng Khách</string>
+    <string name="enter_customer_count">Nhập số lượng</string>
+    <string name="confirm_booking">Xác Nhận Đặt Tour</string>
+
+    <string name="contact_us">Liên Hệ Với Chúng Tôi</string>
+    <string name="name">Tên</string>
+    <string name="enter_name1">Nhập tên của bạn</string>
+    <string name="email">Email</string>
+    <string name="enter_email">Nhập email của bạn</string>
+    <string name="message">Tin Nhắn</string>
+    <string name="enter_message">Nhập tin nhắn của bạn</string>
+    <string name="send">Gửi</string>
+    <string name="contact_support">Hoặc liên hệ với chúng tôi qua email: support@example.com</string>
+    <string name="chat_box">Chat Box</string>
+
+    <string name="title_custom_tour">ĐẶT TOUR TỰ DO</string>
+
+    <string name="label_choose_places">Chọn Địa Điểm Tham Quan</string>
+    <string name="hint_choose_places">Chọn nhiều địa điểm</string>
+
+    <string name="label_choose_foods">Chọn Món Ăn</string>
+    <string name="hint_choose_foods">Chọn nhiều món ăn</string>
+
+    <string name="label_choose_hotels">Chọn Khách Sạn</string>
+    <string name="hint_choose_hotels">Chọn nhiều khách sạn</string>
+
+    <string name="label_days">Số Ngày</string>
+    <string name="hint_days">Nhập số ngày</string>
+
+    <string name="label_nights">Số Đêm</string>
+    <string name="hint_nights">Nhập số đêm</string>
+
+    <string name="label_start_date">Ngày Bắt Đầu</string>
+    <string name="hint_start_date">Chọn ngày</string>
+
+    <string name="label_guests">Số Lượng Khách</string>
+    <string name="hint_guests">Nhập số lượng khách</string>
+
+    <string name="label_customer_name">Tên Khách Hàng</string>
+    <string name="hint_customer_name">Nhập tên khách hàng</string>
+
+    <string name="label_phone">Số Điện Thoại</string>
+    <string name="hint_phone">Nhập số điện thoại</string>
+
+    <string name="label_email">Email</string>
+    <string name="hint_email">Nhập email</string>
+
+    <string name="label_desired_cost">Chi Phí Mong Muốn/Người</string>
+    <string name="hint_desired_cost">Nhập chi phí mong muốn</string>
+
+    <string name="label_notes">Ghi chú</string>
+    <string name="hint_notes">Ghi chú (nếu có trẻ em - ghi rõ tuổi) và yêu cầu khác</string>
+
+    <string name="btn_submit">Đặt Tour</string>
+
+    <string name="search_hint1">Tìm kiếm món ăn</string>
+    <string name="category_title">DANH MỤC ĐẶC SẢN MIỆT VƯỜN VĨNH LONG</string>
+    <string name="all1">Tổng hợp</string>
+    <string name="fruits">Trái Cây</string>
+    <string name="cakes">Bánh</string>
+    <string name="dishes">Món Ăn</string>
+    <string name="food_list_title">DANH SÁCH MÓN ĂN</string>
+
+    <string name="notification">Thông Báo</string>
+
+    <string name="share_journey">📍 Chia sẻ hành trình của bạn cùng mọi người!\n📸 Đăng ảnh và kể về trải nghiệm thú vị tại Vĩnh Long.</string>
+    <string name="hint_post">Bạn muốn chia sẻ hành trình về Vĩnh Long?</string>
+
+    <string name="rating_prompt">Đánh giá của bạn</string>
+    <string name="review_hint">Bạn có hài lòng về dịch vụ này không?</string>
+    <string name="submit_review">Gửi đánh giá</string>
+
+    <string name="login_title">ĐĂNG NHẬP</string>
+    <string name="hint_email_login">Email</string>
+    <string name="hint_password_login">Mật khẩu</string>
+    <string name="btn_login">Đăng nhập</string>
+    <string name="forgot_password">Quên mật khẩu</string>
+    <string name="signup_prompt">Chưa có tài khoản? Đăng kí</string>
+
+    <string name="signup_title">TẠO TÀI KHOẢN</string>
+    <string name="hint_username">Tên tài khoản</string>
+    <string name="hint_email_signup">Email</string>
+    <string name="hint_password">Mật khẩu</string>
+    <string name="hint_confirm_password">Nhập lại mật khẩu</string>
+    <string name="btn_signup">Đăng kí</string>
+    <string name="signin_prompt">Đã có tài khoản? Đăng nhập</string>
+    <string name="hint_verification_code">Nhập Mã Xác Minh</string>
+    <string name="btn_verify_code">Xác Minh Mã</string>
+
+    <string name="tour_detail_title">📌 Chi tiết đặt tour</string>
+    <string name="customer">👤 Khách hàng: </string>
+    <string name="phone">📞 Số điện thoại: </string>
+    <string name="email1">📧 Email: </string>
+    <string name="start_date1">🗓️ Ngày khởi hành: </string>
+    <string name="guests">👥 Số khách: </string>
+    <string name="cost">💸 Chi phí: </string>
+    <string name="notes">📝 Ghi chú: </string>
+    <string name="places">📍 Điểm đến: </string>
+    <string name="foods">🍽️ Món ăn: </string>
+    <string name="hotels">🏨 Khách sạn: </string>
+
+    <string name="tour_list_title">Danh Sách Tour Booking</string>
+
+    <string name="tour_name1">Tên Tour</string>
+    <string name="description">📝 Mô tả</string>
+    <string name="short_description">Mô tả ngắn về chuyến đi</string>
+    <string name="duration">⏳ Thời gian tour</string>
+    <string name="departure_location1">📍 Điểm khởi hành</string>
+    <string name="tour_guide">👨‍💼 Hướng dẫn viên</string>
+    <string name="itinerary">📅 Lịch trình chi tiết</string>
+    <string name="included_services">🏷 Dịch vụ bao gồm:</string>
+    <string name="accommodation">🏨 Chỗ ở qua đêm</string>
+    <string name="cancellation_policy">❌ Chính sách hủy</string>
+    <string name="price">💰 Giá tour</string>
+    <string name="review">⭐ Đánh giá</string>
+    <string name="book_tour2">Đặt Tour</string>
+
+    <string name="hint_search_tour">Tìm tour...</string>
+    <string name="select_date2">Chọn ngày</string>
+    <string name="start_date2">Ngày bắt đầu:</string>
+    <string name="select_price">Chọn giá</string>
+    <string name="price_from">Giá từ:</string>
+    <string name="hint_enter_price">Nhập giá</string>
+
+    <string name="search_hint2">Tìm kiếm điểm du lịch</string>
+    <string name="category_title2">DANH MỤC ĐIỂM DU LỊCH VĨNH LONG</string>
+    <string name="all2">Tất Cả</string>
+    <string name="fruit_garden">Vườn trái cây</string>
+    <string name="tourist_spot">Điểm tham quan</string>
+    <string name="tourist_area">Khu du lịch</string>
+    <string name="list_title">DANH SÁCH</string>
+
+    <string name="location">📍 Vị trí:</string>
+
+    <string name="personal_journey">Hành trình cá nhân</string>
+    <string name="tour_history">Lịch sử đặt tour</string>
+    <string name="custom_tour_list">Danh sách tour tự chọn</string>
+    <string name="lhtv">Liên hệ tư vấn</string>
+    <string name="dg">Đánh giá</string>
+    <string name="dsyt">Danh sách yêu thích</string>
+    <string name="settings">Đổi ngôn ngữ</string>
+    <string name="change_password">Thay đổi mật khẩu</string>
+    <string name="logout">Đăng xuất</string>
+    <string name="tourcancel">Tour đã hủy</string>
+</resources>

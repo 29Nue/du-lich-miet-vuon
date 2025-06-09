@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    tools:context=".MainActivity">
+
+    <!-- Thanh Điều Hướng -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:gravity="center_vertical">
+
+        <!-- Nút Quay Lại -->
+        <ImageButton
+            android:id="@+id/backButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:src="@drawable/ic_back"
+            android:contentDescription="Back" />
+
+        <!-- Logo Ở Giữa -->
+        <ImageView
+            android:id="@+id/imgLogo"
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:contentDescription="Logo"
+            android:scaleType="fitCenter"
+            android:src="@drawable/logo" />
+
+        <!-- Icon Người Dùng -->
+        <ImageButton
+            android:id="@+id/userIcon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:src="@drawable/ic_person"
+            android:contentDescription="User" />
+    </LinearLayout>
+
+    <!-- ScrollView để cuộn nội dung -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+            <!-- Thanh Tìm Kiếm -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/search"
+                android:padding="8dp"
+                android:gravity="center_vertical">
+
+                <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:src="@drawable/ic_search"
+                    android:contentDescription="Search Icon"
+                    android:layout_marginEnd="8dp"/>
+
+                <EditText
+                    android:id="@+id/searchField"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:hint="@string/search_hint1"
+                    android:textSize="16sp"
+                    android:background="@null" />
+            </LinearLayout>
+
+            <!-- Ảnh Nổi Bật -->
+            <ImageView
+                android:id="@+id/featured_image"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_marginBottom="10dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ma1"
+                android:contentDescription="Featured image" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:orientation="vertical"
+                android:background="@drawable/rounded_layout"
+                android:padding="16dp"
+                android:layout_marginTop="-70dp"
+                android:elevation="6dp">
+            <!-- Tiêu Đề Danh Sách Món Ăn -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:layout_marginTop="10dp">
+
+                <!-- Đường gạch đứng -->
+                <View
+                    android:layout_width="4dp"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@android:color/holo_blue_dark" /> <!-- Màu xanh đậm -->
+                <Space
+                    android:layout_width="16dp"
+                    android:layout_height="wrap_content" />
+                <!-- TextView hiển thị chữ -->
+                <TextView
+                    android:id="@+id/txtdmma"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/category_title"
+                    android:textSize="15dp"
+                    android:textColor="#000000"
+                    android:layout_marginEnd="5dp"
+                    android:gravity="center" />
+
+
+            </LinearLayout>
+
+            <!-- Danh Mục Món Ăn -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+                <!-- Trái Cây -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:gravity="center">
+                    <ImageView
+                        android:id="@+id/btn_traicay"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:src="@drawable/traicay"
+                        android:scaleType="centerInside"
+                        android:stateListAnimator="@animator/button_press"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/fruits"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <!-- Bánh -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:gravity="center">
+                    <ImageView
+                        android:id="@+id/btn_banh"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:src="@drawable/banh"
+                        android:scaleType="centerInside"
+                        android:stateListAnimator="@animator/button_press"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/cakes"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <!-- Món Ăn -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:gravity="center">
+                    <ImageView
+                        android:id="@+id/btn_monan"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:src="@drawable/monan"
+                        android:scaleType="centerInside"
+                        android:stateListAnimator="@animator/button_press"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/dishes"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </LinearLayout>
+        <!-- Tiêu Đề Danh Sách Món Ăn -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginTop="10dp">
+
+            <!-- Đường gạch đứng -->
+            <View
+                android:layout_width="4dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="0dp"
+                android:layout_marginRight="10dp"
+                android:background="@android:color/holo_blue_dark" /> <!-- Màu xanh đậm -->
+            <Space
+                android:layout_width="16dp"
+                android:layout_height="wrap_content" />
+            <!-- TextView hiển thị chữ -->
+            <TextView
+                android:id="@+id/txtdsma"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/food_list_title"
+                android:textSize="15sp"
+                android:textColor="#000000"
+                android:layout_marginEnd="5dp"
+                android:gravity="center" />
+            <TextView
+                android:id="@+id/btn_all1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="120dp"
+                android:text="@string/all"/>
+        </LinearLayout>
+
+            <!-- RecyclerView Hiển Thị Danh Sách Món Ăn -->
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rv_items"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:paddingBottom="20dp" />
+
+        </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/book_tour1"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="16dp" />
+
+        <RadioGroup
+            android:id="@+id/radioGroupTourType"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/radioFixedTour"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/fixed_tour"
+                android:checked="true"/>
+
+            <RadioButton
+                android:id="@+id/radioCustomTour"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/custom_tour"/>
+        </RadioGroup>
+
+        <TextView android:text="@string/tour_name" style="@style/LabelStyle"/>
+        <Spinner
+            android:id="@+id/spinnerTourName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <!-- Địa điểm khởi hành -->
+        <TextView android:text="@string/departure_location" style="@style/LabelStyle"/>
+        <EditText
+            android:id="@+id/editDepartureLocation"
+            style="@style/EditTextStyle"
+            android:hint="@string/enter_departure_location"/>
+
+        <TextView android:text="@string/start_date" style="@style/LabelStyle"/>
+        <LinearLayout style="@style/DatePickerStyle">
+            <EditText
+                android:id="@+id/editStartDate"
+                style="@style/EditTextStyle"
+                android:hint="@string/select_date"/>
+            <ImageView
+                android:id="@+id/imgStartDate"
+                style="@style/CalendarIconStyle"/>
+        </LinearLayout>
+
+        <TextView android:text="@string/end_date" style="@style/LabelStyle"/>
+        <LinearLayout style="@style/DatePickerStyle">
+            <EditText
+                android:id="@+id/editEndDate"
+                style="@style/EditTextStyle"
+                android:hint="@string/select_date"/>
+            <ImageView
+                android:id="@+id/imgEndDate"
+                style="@style/CalendarIconStyle"/>
+        </LinearLayout>
+
+        <TextView android:text="@string/customer_name" style="@style/LabelStyle"/>
+        <EditText
+            android:id="@+id/editCustomerName"
+            style="@style/EditTextStyle"
+            android:hint="@string/enter_name"/>
+
+        <TextView android:text="@string/customer_phone" style="@style/LabelStyle"/>
+        <EditText
+            android:id="@+id/editCustomerPhone"
+            style="@style/EditTextStyle"
+            android:hint="@string/enter_phone"
+            android:inputType="phone"/>
+
+        <TextView android:text="@string/customer_count" style="@style/LabelStyle"/>
+        <EditText
+            android:id="@+id/editCustomerCount"
+            style="@style/EditTextStyle"
+            android:hint="@string/enter_customer_count"
+            android:inputType="number"/>
+
+        <!-- Ghi chú cách tính giá -->
+        <TextView
+            android:id="@+id/textViewPriceNote"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="(*) Giá tour được tính như sau:\n- Dưới 5 tuổi: miễn phí\n- Từ 5 đến 11 tuổi: tính 50% giá người lớn\n- Từ 12 tuổi trở lên: tính như người lớn"
+            android:textSize="14sp"
+            android:textColor="#666666"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="5dp" />
+
+        <Button
+            android:id="@+id/btnConfirmCreateTour"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/confirm_booking"
+            android:backgroundTint="@color/purple"
+            android:textColor="@android:color/white"
+            android:layout_marginTop="5dp"/>
+    </LinearLayout>
+
+</ScrollView>

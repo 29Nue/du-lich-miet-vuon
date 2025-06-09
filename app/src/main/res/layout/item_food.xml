@@ -1,0 +1,94 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="#FFFFFF"
+    android:layout_marginBottom="10dp">
+
+    <!-- hình ảnh lớn -->
+    <ImageView
+        android:id="@+id/imgFood"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/saurieng" />
+
+    <!-- thông tin trái cây -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <!-- tên trái cây -->
+        <TextView
+            android:id="@+id/tv_traicay_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sầu riêng"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <!-- mô tả trái cây -->
+        <TextView
+            android:id="@+id/tv_traicay_desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Một loại trái cây có mùi đặc trưng, vị béo ngọt"
+            android:textColor="#888888"
+            android:textSize="14sp"
+            android:layout_marginTop="4dp" />
+
+        <!-- địa chỉ -->
+        <TextView
+            android:id="@+id/tv_dd_monan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:drawableStart="@drawable/ic_location_on"
+            android:drawablePadding="4dp"
+            android:text="Địa điểm bán: Chợ Bến Thành"
+            android:textColor="#888888"
+            android:textSize="14sp" />
+
+        <!-- hàng chứa giá, nút yêu thích và nút 3 chấm -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="0dp"
+            android:gravity="center_vertical">
+
+            <!-- giá -->
+            <TextView
+                android:id="@+id/tv_burger_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="50.000 vnđ"
+                android:textColor="@color/brown"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:layout_weight="1" />
+
+            <!-- nút yêu thích -->
+            <ImageView
+                android:id="@+id/btn_favorite"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_favorite"
+                android:padding="5dp" />
+
+            <!-- nút 3 chấm -->
+            <ImageView
+                android:id="@+id/btn_more"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_more"
+                android:padding="8dp"
+                android:visibility="gone" />
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

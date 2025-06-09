@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/bgimg">
+
+    <!-- Logo -->
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
+        android:src="@drawable/logo1" />
+
+
+    <!-- Nút đăng nhập -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnLogin"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/logo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="Đăng nhập"
+        android:textSize="16sp"
+        app:cornerRadius="10dp"
+        app:strokeWidth="3dp"
+        app:strokeColor="@color/green"
+        android:backgroundTint="@color/orange"
+        android:textColor="@android:color/white"
+        android:elevation="10dp"
+        android:padding="10dp"/>
+
+    <!-- Mũi tên vào trang chủ -->
+    <ImageView
+        android:id="@+id/arrow"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="50dp"
+        android:src="@drawable/ic_arrow"
+        android:clickable="true"
+        android:focusable="true"
+        android:contentDescription="Mũi tên vào trang chủ" />
+
+</RelativeLayout>

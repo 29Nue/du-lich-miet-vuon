@@ -1,0 +1,68 @@
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginTop="10dp"
+    android:layout_marginHorizontal="12dp"
+    app:cardCornerRadius="20dp"
+    app:cardElevation="8dp"
+    android:backgroundTint="#EEF8E3">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:background="@android:color/transparent">
+
+        <!-- Giữ nguyên các TextView bên trong -->
+        <TextView
+            android:id="@+id/tvCreatedTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="20/02/2025 14:30"
+            android:textSize="14sp"
+            android:textColor="@android:color/darker_gray"
+            android:layout_alignParentRight="true"
+            android:layout_marginEnd="8dp"/>
+
+        <TextView
+            android:id="@+id/tvCustomerName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Khách hàng: Nguyễn Văn A"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:layout_below="@id/tvCreatedTime"/>
+
+        <TextView
+            android:id="@+id/tvStartDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ngày khởi hành: 20/02/2025"
+            android:layout_below="@id/tvCustomerName"/>
+
+        <TextView
+            android:id="@+id/tvGuests"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Số khách: 4 người"
+            android:layout_below="@id/tvStartDate"/>
+
+        <TextView
+            android:id="@+id/tvPlaces"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Điểm đến: Cần Thơ, Vĩnh Long"
+            android:layout_below="@id/tvGuests"/>
+
+        <TextView
+            android:id="@+id/txtDeleteTour"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Xóa"
+            android:textColor="@color/brown"
+            android:layout_below="@id/tvPlaces"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="8dp"/>
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@android:color/white">
+
+    <!-- TextView cho phần đánh giá sao -->
+    <TextView
+        android:id="@+id/txtRatingPrompt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/rating_prompt"
+        android:textSize="16sp"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="8dp"/>
+
+    <!-- Spinner cho chọn tour -->
+    <Spinner
+        android:id="@+id/spinnerTour"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtRatingPrompt"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="8dp"/>
+
+    <!-- RatingBar cho đánh giá sao -->
+    <RatingBar
+        android:id="@+id/ratingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:numStars="5"
+        android:stepSize="1.0"
+        android:layout_below="@id/spinnerTour"
+        android:layout_marginBottom="16dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="8dp"
+        android:progressTint="@android:color/holo_orange_light"/>
+
+    <!-- EditText cho lý do đánh giá -->
+    <EditText
+        android:id="@+id/edtReviewReason"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/review_hint"
+        android:inputType="textMultiLine"
+        android:lines="4"
+        android:gravity="top"
+        android:background="@android:color/white"
+        android:padding="10dp"
+        android:layout_below="@id/ratingBar"
+        android:layout_marginBottom="16dp"
+        android:minHeight="48dp"/>
+
+    <!-- Nút gửi đánh giá -->
+    <Button
+        android:id="@+id/btnSubmitReview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/submit_review"
+        android:backgroundTint="@color/blue"
+        android:textColor="@android:color/white"
+        android:layout_below="@id/edtReviewReason"/>
+
+</RelativeLayout>

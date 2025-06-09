@@ -1,0 +1,246 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="THÊM TOUR"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="24dp"
+            android:textColor="@color/green"/>
+
+        <!-- Tên Tour -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tên Tour:"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+        <EditText
+            android:id="@+id/edtTourName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nhập tên tour"
+            android:minHeight="48dp"/>
+
+        <!-- Mô tả ngắn gọn -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mô tả ngắn:"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp" />
+        <EditText
+            android:id="@+id/edtDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nhập mô tả ngắn gọn"
+            android:minHeight="48dp"/>
+
+        <!-- Thời gian tour: Ngày và Đêm -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Thời gian (Số ngày - Số đêm):"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <EditText
+                android:id="@+id/edtDurationDays"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:inputType="number"
+                android:hint="Số ngày"
+                android:minHeight="48dp"/>
+            <EditText
+                android:id="@+id/edtDurationNights"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:inputType="number"
+                android:hint="Số đêm"
+                android:minHeight="48dp"/>
+        </LinearLayout>
+
+        <!-- Chọn ngày khởi hành và kết thúc -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Thời gian khởi hành:"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp" />
+        <Button
+            android:id="@+id/btnPickStartDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Chọn ngày khởi hành" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Thời gian kết thúc:"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp" />
+        <Button
+            android:id="@+id/btnPickEndDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Chọn ngày kết thúc" />
+
+        <!-- Danh sách điểm đến -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Địa điểm:"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp" />
+        <EditText
+            android:id="@+id/edtDestinations"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nhập địa điểm"
+            android:minHeight="48dp"/>
+
+        <!-- Lịch trình -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lịch trình:"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp" />
+        <EditText
+            android:id="@+id/edtItinerary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nhập lịch trình"
+            android:minHeight="48dp"/>
+
+        <!-- Giá Tour -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Giá Tour:"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp" />
+        <EditText
+            android:id="@+id/edtPrice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:hint="Nhập giá tour"
+            android:minHeight="48dp"/>
+
+        <!-- Dịch vụ bao gồm -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dịch vụ bao gồm:"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp" />
+        <EditText
+            android:id="@+id/edtIncludedServices"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nhập các dịch vụ bao gồm"
+            android:minHeight="48dp"/>
+
+        <!-- Tiêu đề cho phần Chỗ ở -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chỗ ở:"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp" />
+
+        <!-- Spinner để chọn chỗ ở -->
+        <Spinner
+            android:id="@+id/spinnerAccommodation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/border_rounded_background"
+            android:spinnerMode="dropdown" />
+
+
+        <!-- Hướng dẫn viên -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hướng dẫn viên:"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp" />
+        <EditText
+            android:id="@+id/edtTourGuide"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nhập thông tin hướng dẫn viên"
+            android:minHeight="48dp"/>
+
+        <!-- Chính sách hủy -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chính sách hủy tour:"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp" />
+        <EditText
+            android:id="@+id/edtCancellationPolicy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nhập chính sách hủy tour"
+            android:minHeight="48dp"/>
+
+        <!-- Hình ảnh -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hình ảnh tour:"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Select a photo"/>
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/imagePhoto"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            app:strokeWidth="2dp"
+            app:strokeColor="@color/black"/>
+
+        <!-- Nút lưu -->
+        <Button
+            android:id="@+id/btnSaveTour"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lưu tour"
+            android:layout_marginTop="16dp" />
+
+    </LinearLayout>
+</ScrollView>
+

@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="16dp">
+
+    <!-- Top Frame: Profile Image and User Info -->
+
+    <LinearLayout
+        android:id="@+id/topFrame"
+        android:layout_width="match_parent"
+        android:layout_height="235dp"
+        android:background="@color/cardview_light_background"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:padding="15dp">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="0dp"
+            app:cardBackgroundColor="@android:color/white"
+            app:cardCornerRadius="75dp"
+            app:cardElevation="0dp">
+
+            <ImageView
+                android:id="@+id/profileImage"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/a" />
+        </androidx.cardview.widget.CardView>
+
+
+        <TextView
+            android:id="@+id/userName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Naila Stefenson"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/userEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:gravity="center"
+            android:text="email@example.com"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/userInfoFrame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/background_frame"
+        android:layout_below="@id/topFrame"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/spinner_background">
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/ic_feed"
+                android:layout_marginEnd="12dp"/>
+            <TextView
+                android:id="@+id/txtHTCN"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/personal_journey" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/spinner_background">
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/touhientai"
+                android:layout_marginEnd="12dp"/>
+            <TextView
+                android:id="@+id/txtTour"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tour_history" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/spinner_background">
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/tourhoanthanh"
+                android:layout_marginEnd="12dp"/>
+
+            <TextView
+                android:id="@+id/txtTourHT"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/custom_tour_list" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/spinner_background">
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/ic_contact"
+                android:layout_marginEnd="12dp"/>
+
+            <TextView
+                android:id="@+id/txtLienHe"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/lhtv" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/spinner_background">
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/ic_reviews"
+                android:layout_marginEnd="12dp"/>
+
+            <TextView
+                android:id="@+id/txtDanhGia"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/dg" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/spinner_background">
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/yeuthich"
+                android:layout_marginEnd="12dp"/>
+
+            <TextView
+                android:id="@+id/txtYeuThich"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/dsyt" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/spinner_background">
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/caidat"
+                android:layout_marginEnd="12dp"/>
+            <TextView
+                android:id="@+id/txtChangeLanguage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/settings" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/spinner_background">
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/thaydoimatkhau"
+                android:layout_marginEnd="12dp"/>
+            <TextView
+                android:id="@+id/txtEditPass"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/change_password" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@drawable/spinner_background">
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/dangxuat"
+                android:layout_marginEnd="12dp"/>
+            <TextView
+                android:id="@+id/logoutButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/logout" />
+        </LinearLayout>
+        <Button
+            android:id="@+id/btn_edit_admin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="@color/pastelBlue"
+            android:layout_gravity="right"
+            android:text="Quyền Admin"
+            android:visibility="gone" /> <!-- Sẽ ẩn mặc định -->
+
+    </LinearLayout>
+</RelativeLayout>

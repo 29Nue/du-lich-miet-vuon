@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="12dp"
+    android:gravity="center"
+    android:background="@android:color/white">
+
+    <!-- hộp thông tin tour -->
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:radius="12dp"
+        android:elevation="4dp"
+        android:padding="12dp"
+        app:cardCornerRadius="16dp"
+        app:cardBackgroundColor="#FAF9F6">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- tên tour -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="8dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tour:"
+                    android:textSize="15sp"
+                    android:textColor="#555"
+                    android:textStyle="bold"
+                    android:paddingEnd="6dp"/>
+                <TextView
+                    android:id="@+id/txtTourName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tên Tour"
+                    android:textSize="15sp"
+                    android:textColor="#333"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+
+            <!-- ngày bắt đầu -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="6dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bắt đầu:"
+                    android:textSize="14sp"
+                    android:textColor="#555"
+                    android:paddingEnd="6dp"/>
+                <TextView
+                    android:id="@+id/txtStartDate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Ngày Bắt Đầu"
+                    android:textSize="14sp"
+                    android:textColor="#333"/>
+            </LinearLayout>
+
+            <!-- ngày kết thúc -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="6dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Kết thúc:"
+                    android:textSize="14sp"
+                    android:textColor="#555"
+                    android:paddingEnd="6dp"/>
+                <TextView
+                    android:id="@+id/txtEndDate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Ngày Kết Thúc"
+                    android:textSize="14sp"
+                    android:textColor="#333"/>
+            </LinearLayout>
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <!-- nút hành động -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="end"
+        android:layout_marginTop="8dp">
+
+        <!-- nút đánh giá -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/revTourHT"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Đánh Giá"
+            android:textSize="14sp"
+            android:textColor="@android:color/white"
+            app:cornerRadius="15dp"
+            android:backgroundTint="#CDDC39"
+            android:paddingHorizontal="5dp"/>
+
+        <!-- nút xóa -->
+        <ImageButton
+            android:id="@+id/btnDelete"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:src="@drawable/ic_delete"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:contentDescription="Xóa Tour"
+            android:layout_marginStart="12dp"/>
+    </LinearLayout>
+
+</LinearLayout>

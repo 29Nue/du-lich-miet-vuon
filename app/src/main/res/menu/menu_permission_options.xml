@@ -1,0 +1,8 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/action_public"
+        android:title="Công khai"/>
+    <item
+        android:id="@+id/action_private"
+        android:title="Chỉ mình tôi"/>
+</menu>

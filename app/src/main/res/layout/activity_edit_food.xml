@@ -1,0 +1,66 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="@color/oliveGreen"
+        android:gravity="center"
+        android:textSize="24dp"
+        android:text="SỬA THÔNG TIN MÓN ĂN"/>
+
+    <EditText
+        android:id="@+id/etFoodName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tên món ăn" />
+
+    <EditText
+        android:id="@+id/etFoodDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mô tả món ăn" />
+
+    <EditText
+        android:id="@+id/etFoodPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Giá món ăn"
+        android:inputType="numberDecimal" />
+
+    <Spinner
+        android:id="@+id/spinnerFoodCategory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp" />
+    <EditText
+        android:id="@+id/etFoodLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Địa điểm có món ăn"
+        android:inputType="numberDecimal" />
+    <Button
+        android:id="@+id/btnSelectImage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chọn ảnh" />
+
+    <ImageView
+        android:id="@+id/ivFoodImage"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="8dp"
+        android:scaleType="centerCrop"
+        android:background="#DDDDDD" />
+
+    <Button
+        android:id="@+id/btnSaveFood"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Lưu thông tin món ăn" />
+
+</LinearLayout>

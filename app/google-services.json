@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "356312910019",
+    "firebase_url": "https://quanbadulichmietvuonvinhlong-default-rtdb.firebaseio.com",
+    "project_id": "quanbadulichmietvuonvinhlong",
+    "storage_bucket": "quanbadulichmietvuonvinhlong.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:356312910019:android:b90e2ec47927d77ad9fa76",
+        "android_client_info": {
+          "package_name": "com.example.quanbadulichmietvuon"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7ssu0zu4SUIyMRQmhu0AZ0qn-jPTnDlk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:356312910019:android:2109ae366e415205d9fa76",
+        "android_client_info": {
+          "package_name": "com.example.quanbadulichmietvuonvinhlong"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7ssu0zu4SUIyMRQmhu0AZ0qn-jPTnDlk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="styleShapeableImageViewCricle">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+
+    <!-- Style cho TextView tên burger -->
+        <style name="BurgerNameText">
+            <item name="android:textSize">18sp</item>
+            <item name="android:textStyle">bold</item>
+            <item name="android:textColor">#000000</item>
+        </style>
+
+        <!-- Style cho TextView mô tả burger -->
+        <style name="BurgerDescText">
+            <item name="android:textSize">14sp</item>
+            <item name="android:textColor">#888888</item>
+        </style>
+
+        <!-- Style cho TextView giá burger -->
+        <style name="PriceText">
+            <item name="android:textSize">16sp</item>
+            <item name="android:textStyle">bold</item>
+        </style>
+
+        <!-- Style cho ảnh yêu thích (trái tim) -->
+        <style name="FavoriteIcon">
+            <item name="android:layout_width">wrap_content</item>
+            <item name="android:layout_height">wrap_content</item>
+            <item name="android:padding">8dp</item>
+        </style>
+
+        <!-- Style cho LinearLayout chứa từng item burger -->
+        <style name="ItemContainer">
+            <item name="android:layout_width">match_parent</item>
+            <item name="android:layout_height">wrap_content</item>
+            <item name="android:padding">10dp</item>
+            <item name="android:orientation">horizontal</item>
+            <item name="android:layout_marginBottom">10dp</item>
+        </style>
+
+        <style name="DetailTextStyle">
+            <item name="android:layout_width">wrap_content</item>
+            <item name="android:layout_height">wrap_content</item>
+            <item name="android:textSize">16sp</item>
+            <item name="android:paddingBottom">8dp</item>
+            <item name="android:textColor">#444444</item>
+        </style>
+
+        <!-- Style cho Label -->
+        <style name="LabelStyle">
+            <item name="android:layout_width">match_parent</item>
+            <item name="android:layout_height">wrap_content</item>
+            <item name="android:textSize">16sp</item>
+            <item name="android:textStyle">bold</item>
+            <item name="android:layout_marginTop">8dp</item>
+        </style>
+
+        <!-- Style cho EditText -->
+        <style name="EditTextStyle">
+            <item name="android:layout_width">match_parent</item>
+            <item name="android:layout_height">wrap_content</item>
+            <item name="android:background">@android:drawable/editbox_background</item>
+            <item name="android:padding">10dp</item>
+            <item name="android:textSize">16sp</item>
+            <item name="android:layout_marginTop">4dp</item>
+        </style>
+
+        <!-- Style cho Date Picker -->
+        <style name="DatePickerStyle">
+            <item name="android:layout_width">match_parent</item>
+            <item name="android:layout_height">wrap_content</item>
+            <item name="android:orientation">horizontal</item>
+            <item name="android:gravity">center_vertical</item>
+        </style>
+
+        <!-- Style cho Icon Calendar -->
+        <style name="CalendarIconStyle">
+            <item name="android:layout_width">40dp</item>
+            <item name="android:layout_height">40dp</item>
+            <item name="android:src">@android:drawable/ic_menu_today</item>
+            <item name="android:layout_marginStart">8dp</item>
+        </style>
+
+        <style name="DetailItemStyle">
+            <item name="android:textSize">16sp</item>
+            <item name="android:textColor">#444</item>
+            <item name="android:paddingBottom">8dp</item>
+        </style>
+
+    </resources>

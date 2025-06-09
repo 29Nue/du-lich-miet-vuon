@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#FAFAFA">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Tiêu Đề -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SỬA THÔNG TIN CHỖ Ở"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Nhập Tên -->
+        <EditText
+            android:id="@+id/et_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Tên Chỗ Ở"
+            android:layout_marginBottom="12dp"
+            android:inputType="text" />
+
+        <!-- Nhập Địa Chỉ -->
+        <EditText
+            android:id="@+id/et_location"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Địa Chỉ"
+            android:layout_marginBottom="12dp"
+            android:inputType="text" />
+
+        <!-- Nhập Đánh Giá -->
+        <EditText
+            android:id="@+id/et_rating"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Đánh Giá (Ví Dụ: 4.5)"
+            android:layout_marginBottom="12dp"
+            android:inputType="numberDecimal" />
+
+        <!-- Nhập Giá -->
+        <EditText
+            android:id="@+id/et_price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Giá (Ví Dụ: 100.000đ/Đêm)"
+            android:layout_marginBottom="12dp"
+            android:inputType="numberDecimal" />
+
+        <!-- Nhập Mô Tả -->
+        <EditText
+            android:id="@+id/et_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Mô Tả"
+            android:layout_marginBottom="12dp"
+            android:inputType="textMultiLine"
+            android:minLines="3" />
+
+        <!-- Chọn Loại Chỗ Ở -->
+        <Spinner
+            android:id="@+id/spinner_type"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp" />
+
+        <!-- Ảnh 1 -->
+        <ImageView
+            android:id="@+id/ivAccomImage1"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="10dp"
+            android:scaleType="centerCrop"
+            android:background="#DDDDDD" />
+
+        <!-- Ảnh 2 -->
+        <ImageView
+            android:id="@+id/ivAccomImage2"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="10dp"
+            android:scaleType="centerCrop"
+            android:background="#DDDDDD" />
+
+        <!-- Ảnh 3 -->
+        <ImageView
+            android:id="@+id/ivAccomImage3"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="10dp"
+            android:scaleType="centerCrop"
+            android:background="#DDDDDD" />
+
+        <!-- Nút Lưu Chỗ Ở -->
+        <Button
+            android:id="@+id/btn_save"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lưu Chỗ Ở"
+            android:backgroundTint="@color/purple"
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
+</ScrollView>

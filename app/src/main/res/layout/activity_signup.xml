@@ -1,0 +1,224 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="10dp"
+        android:background="@drawable/backlogin">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="16dp"
+            app:cardElevation="8dp"
+            android:layout_marginTop="300dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"
+            android:background="@android:color/white"
+            app:cardBackgroundColor="@android:color/white">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="24dp"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/welcomeTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/signup_title"
+                    android:textSize="28sp"
+                    android:textColor="#090909"
+                    android:gravity="center"
+                    android:layout_marginBottom="10dp"/>
+
+                <!-- Các trường nhập liệu -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <!-- Layout for Username input -->
+                    <LinearLayout
+                        android:id="@+id/usernameLayout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:gravity="center_vertical"
+                        android:layout_marginBottom="16dp">
+
+                        <ImageView
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:src="@drawable/ic_user"
+                            android:layout_marginEnd="12dp"/>
+
+                        <EditText
+                            android:id="@+id/edtUsername"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:hint="@string/hint_username"
+                            android:minHeight="48dp"
+                            android:padding="10dp"
+                            android:textColor="@android:color/black"
+                            android:background="@android:color/transparent"/>
+                    </LinearLayout>
+
+                    <!-- Layout for Email input -->
+                    <LinearLayout
+                        android:id="@+id/emailLayout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:gravity="center_vertical"
+                        android:layout_marginBottom="16dp">
+
+                        <ImageView
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:src="@drawable/ic_email2"
+                            android:layout_marginEnd="12dp"/>
+
+                        <EditText
+                            android:id="@+id/edtEmail"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:hint="@string/hint_email_signup"
+                            android:inputType="textEmailAddress"
+                            android:minHeight="48dp"
+                            android:padding="10dp"
+                            android:textColor="@android:color/black"
+                            android:background="@android:color/transparent"/>
+                    </LinearLayout>
+
+                    <!-- Layout for Password input -->
+                    <LinearLayout
+                        android:id="@+id/passwordLayout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:gravity="center_vertical"
+                        android:layout_marginBottom="16dp">
+
+                        <ImageView
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:src="@drawable/ic_pass2"
+                            android:layout_marginEnd="12dp"/>
+
+                        <EditText
+                            android:id="@+id/edtPassword"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:hint="@string/hint_password"
+                            android:inputType="textPassword"
+                            android:minHeight="48dp"
+                            android:background="@android:color/transparent"/>
+                    </LinearLayout>
+
+                    <!-- Layout for Confirm Password input -->
+                    <LinearLayout
+                        android:id="@+id/confirmPasswordLayout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:gravity="center_vertical"
+                        android:layout_marginBottom="24dp">
+
+                        <ImageView
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:src="@drawable/ic_pass2"
+                            android:layout_marginEnd="12dp"/>
+
+                        <EditText
+                            android:id="@+id/edtConfirmPassword"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:hint="@string/hint_confirm_password"
+                            android:inputType="textPassword"
+                            android:minHeight="48dp"
+                            android:background="@android:color/transparent"/>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/btnSignup"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/btn_signup"
+                    android:textColor="@android:color/white"
+                    android:backgroundTint="@color/lightPink"
+                    android:padding="10dp" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+
+        <!-- Already have an account? Sign In -->
+    <TextView
+        android:id="@+id/txtSignin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/signin_prompt"
+        android:textColor="#808080"
+        android:textStyle="italic"
+        android:layout_marginTop="5dp"/>
+    <!-- Layout for Verification Code input -->
+    <LinearLayout
+        android:id="@+id/codeLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginBottom="16dp">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_code"
+            android:layout_marginEnd="12dp"/>
+
+        <EditText
+            android:id="@+id/edtVerificationCode"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="@string/hint_verification_code"
+            android:inputType="number"
+            android:minHeight="48dp"
+            android:padding="10dp"
+            android:textColor="@android:color/black"
+            android:background="@android:color/transparent"/>
+    </LinearLayout>
+
+    <!-- Button to Verify Code -->
+    <Button
+        android:id="@+id/btnVerifyCode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_verify_code"
+        android:textColor="@android:color/white"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/lightPink"
+        android:backgroundTintMode="src_in"
+        android:elevation="4dp"
+        android:padding="12dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp" />
+
+</LinearLayout>
+</ScrollView>

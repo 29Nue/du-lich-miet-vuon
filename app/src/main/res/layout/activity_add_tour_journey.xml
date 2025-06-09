@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@android:color/background_light">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CHIA SẺ HÀNH TRÌNH"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="24dp"
+        android:textColor="@color/oliveGreen"/>
+    <Spinner
+        android:id="@+id/spinnerVisibility"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:entries="@array/visibility_options"/>
+
+    <!-- Post Input Field -->
+    <EditText
+        android:id="@+id/edtPost"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Bạn đang nghĩ gì?"
+        android:background="@null"
+        android:padding="10dp"
+        android:textSize="14sp"
+        android:minHeight="80dp"
+        android:maxLines="6"
+        android:scrollbars="vertical" />
+
+    <!-- Display Selected Feeling & Location -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="8dp">
+
+        <TextView
+            android:id="@+id/tvFeeling"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textSize="14sp"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/tvLocation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/holo_green_dark"
+            android:textSize="14sp"
+            android:visibility="gone"
+            android:layout_marginStart="8dp" />
+    </LinearLayout>
+    <GridLayout
+        android:id="@+id/imageGrid"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:columnCount="3"
+        android:rowCount="2"
+        android:alignmentMode="alignMargins"
+        android:padding="4dp">
+
+        <!-- 6 ô ảnh -->
+        <ImageView
+            android:id="@+id/img1"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_margin="4dp"
+            android:scaleType="centerCrop"
+            android:background="@android:color/darker_gray"/>
+
+        <ImageView
+            android:id="@+id/img2"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_margin="4dp"
+            android:scaleType="centerCrop"
+            android:background="@android:color/darker_gray"/>
+
+        <ImageView
+            android:id="@+id/img3"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_margin="4dp"
+            android:scaleType="centerCrop"
+            android:background="@android:color/darker_gray"/>
+
+        <ImageView
+            android:id="@+id/img4"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_margin="4dp"
+            android:scaleType="centerCrop"
+            android:background="@android:color/darker_gray"/>
+
+        <ImageView
+            android:id="@+id/img5"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_margin="4dp"
+            android:scaleType="centerCrop"
+            android:background="@android:color/darker_gray"/>
+
+        <ImageView
+            android:id="@+id/img6"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_margin="4dp"
+            android:scaleType="centerCrop"
+            android:background="@android:color/darker_gray"/>
+    </GridLayout>
+
+    <!-- Media and Options -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:paddingTop="8dp">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnAddImage"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Ảnh/Video"
+            android:drawableLeft="@drawable/ic_image"
+            android:drawablePadding="8dp"
+            android:padding="8dp"
+            android:background="@color/white"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:gravity="center_vertical"
+            android:iconTint="@null"/>
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnAddFeeling"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Cảm xúc"
+            android:drawableLeft="@drawable/ic_face"
+            android:drawablePadding="8dp"
+            android:padding="8dp"
+            android:background="?attr/selectableItemBackground"
+            android:textAllCaps="false"
+            android:textColor="@android:color/black"
+            android:gravity="center_vertical"
+            android:iconTint="@null"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnAddLocation"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Địa điểm"
+            android:drawableLeft="@drawable/ic_location_on"
+            android:drawablePadding="8dp"
+            android:padding="8dp"
+            android:background="?attr/selectableItemBackground"
+            android:textAllCaps="false"
+            android:textColor="@android:color/black"
+            android:gravity="center_vertical"
+            android:iconTint="@null"/>
+
+    </LinearLayout>
+
+
+    <!-- Post Button -->
+    <Button
+        android:id="@+id/btnPost"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Đăng"
+        android:backgroundTint="#64D150"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="12dp" />
+
+</LinearLayout>

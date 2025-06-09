@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.QuanBaDuLichMietVuon"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="31">
+        <activity
+            android:name=".MainActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".FavoriteActivity"
+            android:exported="false" />
+        <activity
+            android:name=".views.EditPostActivity"
+            android:exported="false" />
+        <activity
+            android:name=".views.CommentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".views.AddTourJourneyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".views.ProfileTourJourneyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".views.BookingTourActivity"
+            android:exported="false" />
+        <activity
+            android:name=".views.BookingHistoryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".views.EditTravelDestinationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".views.TourBookingDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".views.TourBookingListActivity"
+            android:exported="false" />
+        <activity
+            android:name=".views.CustomTourBookingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".views.TravelDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".views.AddTravelDestinationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".views.TravelDestinationsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".views.ChatboxDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ChatboxAdminActivity"
+            android:exported="false" />
+        <activity
+            android:name=".views.ChatboxUserActivity"
+            android:exported="false" />
+        <activity
+            android:name=".views.EditNotificationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".views.ActivityAddNotification"
+            android:exported="false" />
+        <activity
+            android:name=".views.EditAccomActivity"
+            android:exported="false" />
+        <activity
+            android:name=".views.NotificationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".views.AddAccomActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AdminActivity"
+            android:exported="false" />
+        <activity
+            android:name=".views.TourCancelActivity"
+            android:exported="false" />
+        <activity
+            android:name=".views.TourCompleteActivity"
+            android:exported="false" />
+        <activity
+            android:name=".views.EditFoodActivity"
+            android:exported="false" />
+        <activity
+            android:name=".views.AddFoodActivity"
+            android:exported="false" />
+        <activity
+            android:name=".views.MapActivity"
+            android:exported="false" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyBt-6iCpFW4gzYgVM0NPFlWMP4Y4pKqeO4" />
+
+        <activity
+            android:name=".views.AccommodationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".views.TourDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".views.FoodActivity"
+            android:exported="false" />
+        <activity
+            android:name=".views.EditTourActivity"
+            android:exported="false" />
+        <activity
+            android:name=".views.AddTourActivity"
+            android:exported="false" />
+        <activity
+            android:name=".views.TourListActivity"
+            android:exported="false" />
+        <activity
+            android:name=".views.UserActivity"
+            android:exported="false" />
+        <activity
+            android:name=".views.IntroductionActivity"
+            android:exported="false" />
+        <activity
+            android:name=".views.ReviewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".views.ContactActivity"
+            android:exported="false" />
+        <activity
+            android:name=".views.SignupActivity"
+            android:exported="false" />
+        <activity
+            android:name=".views.SigninActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+    </application>
+
+</manifest>

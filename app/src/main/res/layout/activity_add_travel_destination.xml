@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="THÊM ĐỊA ĐIỂM DU LỊCH"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="24dp"
+            android:textColor="@color/green"/>
+
+        <EditText
+            android:id="@+id/etDestinationName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nhập tên " />
+
+        <EditText
+            android:id="@+id/etDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nhập mô tả" />
+
+        <EditText
+            android:id="@+id/etAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nhập địa chỉ" />
+
+        <Spinner
+            android:id="@+id/spinnerDestinationType"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/etRating"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nhập sao đánh giá"
+            android:inputType="numberDecimal" />
+
+        <EditText
+            android:id="@+id/etReviewCount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nhập số lượt đánh giá"
+            android:inputType="number" />
+
+        <ImageView
+            android:id="@+id/ivImage1"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:background="@android:color/darker_gray"
+            android:contentDescription="Select Image 1" />
+
+        <ImageView
+            android:id="@+id/ivImage2"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:layout_marginTop="10dp"
+            android:background="@android:color/darker_gray"
+            android:contentDescription="Select Image 2" />
+
+        <Button
+            android:id="@+id/btnSaveDestination"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/oliveGreen"
+            android:text="Lưu địa điểm" />
+    </LinearLayout>
+</ScrollView>

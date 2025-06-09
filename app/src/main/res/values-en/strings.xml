@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">QuanBaDuLichMietVuon</string>
+    <string name="login">Login</string>
+    <string name="explore_experience">Explore &amp; Experience</string>
+    <string name="famous_tourist_places">Famous Tourist Attractions</string>
+    <string name="discover_hotels">Luxury Hotels In Vinh Long</string>
+
+    <string name="vl_hotel">📌 Vinh Long Cuu Long Hotel</string>
+    <string name="sg_hotel">📌 Sai Gon – Vinh Long Hotel</string>
+
+    <string name="book_tour">Book Tour Now!</string>
+    <string name="gth_food">Vinh Long Specialty: Discover The Essence Of Southern Vietnamese Cuisine</string>
+    <string name="what_to_eat_where_to_stay">What To Eat - Where To Stay - What To Do - Vinh Long Countryside</string>
+
+    <string name="tvTitle">✨VINH LONG ORCHARD TOURISM✨</string>
+    <string name="tvDesc1">🚣‍ Vinh Long has long been known as an ideal destination in the Mekong Delta, where visitors can take boat tours, explore the local river culture, and participate in unique entertainment activities. When visiting Vinh Long, travelers have the opportunity to admire lush fruit orchards, watch the sunset by the gentle Tien River, have fun at eco-tourism sites, or visit ancient and majestic temples.</string>
+    <string name="tvDesc2">📌 Below, I will share useful information to help you prepare for your upcoming trip to Vinh Long!</string>
+    <string name="tvDesc3">🌾 Vinh Long is a fertile land with 90% of its land used for rice cultivation. Additionally, every year, the people of Vinh Long harvest hundreds of thousands of tons of various fruits such as pomelo, longan, coconut, oranges, etc.</string>
+    <string name="tvDesc4">🏕️ Vinh Long has great potential for tourism development, including eco-tourism, cultural tourism, spiritual tourism, and commerce.</string>
+    <string name="tvBestTime">⏳WHEN IS THE BEST TIME TO VISIT VINH LONG?</string>
+    <string name="tvWeather1">☀️ Vinh Long has a tropical monsoon climate, warm throughout the year with a pleasant atmosphere, and an average annual temperature of 27°C. The rainy season usually lasts from April to November, while the dry season is from May to October. Therefore, visitors can explore Vinh Long at any time of the year.</string>
+    <string name="tvWeather2">🌳 However, the rainy season is also the time when fruit orchards in Vinh Long are at their peak. Visitors can enjoy delicious fresh fruits while experiencing the cool and refreshing countryside atmosphere.</string>
+    <string name="tvAccomTitle">🏨 ACCOMMODATION OPTIONS IN VINH LONG</string>
+    <string name="tvAccomDesc1">🏡 Vinh Long offers various types of accommodation, including "homestays" where visitors can stay with local families. This type of lodging provides a unique opportunity to experience local life, be close to nature, and gain a deeper understanding of the culture and daily activities of Vinh Long’s people.</string>
+    <string name="tvAccomDesc2">🌿 Alternatively, visitors can choose to stay in guesthouses, hotels, or even go camping. Some recommended hotels in Vinh Long include Hoang Hao Hotel, Phuong Hoang Hotel, Saigon - Vinh Long Hotel, Cuu Long Hotel, Ngu Long Hotel, Tai Nguyen Hotel, and Khanh Quynh Hotel.</string>
+    <string name="attractions_title">FASCINATING TOURIST ATTRACTIONS IN VINH LONG</string>
+    <string name="truong_huy">Truong Huy Tourist Area: Located in Truong An Commune...</string>
+    <string name="cu_lao_an_binh">An Binh Islet: A famous eco-tourism fruit garden...</string>
+    <string name="vinh_sang">Vinh Sang Ecotourism Area: A place to explore the Southern garden...</string>
+    <string name="tien_chau">Tien Chau Pagoda: Built in 1750...</string>
+    <string name="mang_thit">Mang Thit Pottery Village: One of the largest traditional brick and pottery-making areas in the Mekong Delta. Be sure to visit Mang Thit Pottery Village when you come to Vinh Long!</string>
+    <string name="cho_noi_tra_on">Tra On Floating Market: Located in Tra On District, Vinh Long Province, about 250 meters from Tra On Estuary, Tra On Floating Market is situated on the lower section of the Hau River, stretching over 300 meters. It serves as a wholesale market where agricultural products, fruits, and various goods are distributed in bulk.</string>
+    <string name="cuisine_title">VINH LONG CUISINE</string>
+    <string name="food_intro">Your journey to Vinh Long will be truly complete if you explore the famous specialties of this land.</string>
+
+    <string name="cam_xoan_title">Tra On Sweet Orange</string>
+    <string name="cam_xoan_desc">Tra On Sweet Orange is a famous specialty of Vinh Long, often bought by tourists as a gift. This orange variety has a thin peel, a mildly sweet taste, juicy and fragrant segments. In Vinh Long, Tra On Sweet Orange is mainly grown in Tra On Town and Tam Binh.</string>
+
+    <string name="thanh_tra_title">Thanh Tra Fruit</string>
+    <string name="thanh_tra_desc">Thanh Tra Fruit is commonly grown in Vinh Long. The sour variety is often mixed with sugar to make a refreshing drink on hot days, while the sweet variety can be eaten directly.</string>
+
+    <string name="ca_tai_tuong_title">Crispy Fried Giant Gourami</string>
+    <string name="ca_tai_tuong_desc">Giant Gourami fish is sold in seafood markets and Tra On floating market, a specialty of the Mekong Delta. There are many ways to prepare this fish, but the crispy fried version is the most memorable. It is best enjoyed with rice paper, fresh herbs, and fermented fish sauce.</string>
+
+    <string name="chuot_dong_title">Grilled Field Rat</string>
+    <string name="chuot_dong_desc">Grilled field rat is a rustic dish enjoyed by farmers in Vinh Long. These rats live in rice fields, feeding on grains, making their meat naturally sweet, rich in flavor, and delicious when grilled.</string>
+
+    <string name="search_hint">Search for accommodation...</string>
+    <string name="all">All</string>
+    <string name="hotel">Hotel</string>
+    <string name="homestay">Homestay</string>
+    <string name="ecolodge">Eco Lodge</string>
+    <string name="guesthouse">Guest House</string>
+    <string name="accom_category_vl">Accommodation Categories in Vinh Long</string>
+    <string name="accom_list_vl">Accommodation List in Vinh Long</string>
+    <string name="lsdt">Booking History</string>
+
+    <string name="book_tour1">Book Tour</string>
+    <string name="fixed_tour">Fixed Tour</string>
+    <string name="custom_tour">Custom Tour</string>
+    <string name="tour_name">Tour Name</string>
+    <string name="departure_location">Departure Location</string>
+    <string name="enter_departure_location">Enter departure location</string>
+    <string name="start_date">Start Date</string>
+    <string name="select_date">Select date</string>
+    <string name="end_date">End Date</string>
+    <string name="customer_name">Customer Name</string>
+    <string name="enter_name">Enter name</string>
+    <string name="customer_phone">Phone Number</string>
+    <string name="enter_phone">Enter phone number</string>
+    <string name="customer_count">Number of Guests</string>
+    <string name="enter_customer_count">Enter number</string>
+    <string name="confirm_booking">Confirm Booking</string>
+
+    <string name="contact_us">Contact Us</string>
+    <string name="name">Name</string>
+    <string name="enter_name1">Enter your name</string>
+    <string name="email">Email</string>
+    <string name="enter_email">Enter your email</string>
+    <string name="message">Message</string>
+    <string name="enter_message">Enter your message</string>
+    <string name="send">Send</string>
+    <string name="contact_support">Or contact us via email: support@example.com</string>
+    <string name="chat_box">Chat Box</string>
+
+    <string name="title_custom_tour">CUSTOM TOUR BOOKING</string>
+
+    <string name="label_choose_places">Select Attractions</string>
+    <string name="hint_choose_places">Select multiple attractions</string>
+
+    <string name="label_choose_foods">Select Foods</string>
+    <string name="hint_choose_foods">Select multiple foods</string>
+
+    <string name="label_choose_hotels">Select Hotels</string>
+    <string name="hint_choose_hotels">Select multiple hotels</string>
+
+    <string name="label_days">Number of Days</string>
+    <string name="hint_days">Enter number of days</string>
+
+    <string name="label_nights">Number of Nights</string>
+    <string name="hint_nights">Enter number of nights</string>
+
+    <string name="label_start_date">Start Date</string>
+    <string name="hint_start_date">Select date</string>
+
+    <string name="label_guests">Number of Guests</string>
+    <string name="hint_guests">Enter number of guests</string>
+
+    <string name="label_customer_name">Customer Name</string>
+    <string name="hint_customer_name">Enter customer name</string>
+
+    <string name="label_phone">Phone Number</string>
+    <string name="hint_phone">Enter phone number</string>
+
+    <string name="label_email">Email</string>
+    <string name="hint_email">Enter email</string>
+
+    <string name="label_desired_cost">Desired Cost Per Person</string>
+    <string name="hint_desired_cost">Enter desired cost</string>
+
+    <string name="label_notes">Notes</string>
+    <string name="hint_notes">"Notes (if there are children – please specify their ages) and other requests"</string>
+
+    <string name="btn_submit">Book Tour</string>
+
+    <string name="search_hint1">Search for food</string>
+    <string name="category_title">SPECIALTIES OF VINH LONG FRUIT GARDENS</string>
+    <string name="all1">All</string>
+    <string name="fruits">Fruits</string>
+    <string name="cakes">Cakes</string>
+    <string name="dishes">Dishes</string>
+    <string name="food_list_title">FOOD LIST</string>
+
+    <string name="notification">Notification</string>
+
+    <string name="share_journey">📍 Share your journey with everyone!\n📸 Post photos and tell about your amazing experience in Vinh Long.</string>
+    <string name="hint_post">Want to share your journey about Vinh Long?</string>
+
+    <string name="rating_prompt">Your Rating</string>
+    <string name="review_hint">Are you satisfied with this service?</string>
+    <string name="submit_review">Submit Review</string>
+
+    <string name="login_title">LOGIN</string>
+    <string name="hint_email_login">Email</string>
+    <string name="hint_password_login">Password</string>
+    <string name="btn_login">Login</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="signup_prompt">Don\'t have an account? Sign up</string>
+
+    <string name="signup_title">CREATE ACCOUNT</string>
+    <string name="hint_username">Username</string>
+    <string name="hint_email_signup">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_confirm_password">Confirm Password</string>
+    <string name="btn_signup">Sign Up</string>
+    <string name="signin_prompt">Already have an account? Sign in</string>
+    <string name="hint_verification_code">Enter Verification Code</string>
+    <string name="btn_verify_code">Verify Code</string>
+
+    <string name="tour_detail_title">📌 Tour Booking Details</string>
+    <string name="customer">👤 Customer: </string>
+    <string name="phone">📞 Phone: </string>
+    <string name="email1">📧 Email: </string>
+    <string name="start_date1">🗓️ Start Date: </string>
+    <string name="guests">👥 Guests: </string>
+    <string name="cost">💸 Desired Cost: </string>
+    <string name="notes">📝 Notes: </string>
+    <string name="places">📍 Destinations: </string>
+    <string name="foods">🍽️ Foods: </string>
+    <string name="hotels">🏨 Hotels: </string>
+
+    <string name="tour_list_title">Tour Booking List</string>
+
+    <string name="tour_name1">Tour Name</string>
+    <string name="description">📝 Description</string>
+    <string name="short_description">Short description of the trip</string>
+    <string name="duration">⏳ Tour Duration</string>
+    <string name="departure_location1">📍 Departure Location</string>
+    <string name="tour_guide">👨‍💼 Tour Guide</string>
+    <string name="itinerary">📅 Detailed Itinerary</string>
+    <string name="included_services">🏷 Included Services:</string>
+    <string name="accommodation">🏨 Accommodation</string>
+    <string name="cancellation_policy">❌ Cancellation Policy</string>
+    <string name="price">💰 Tour Price</string>
+    <string name="review">⭐ Reviews</string>
+    <string name="book_tour2">Book Tour</string>
+
+    <string name="hint_search_tour">Search for a tour...</string>
+    <string name="select_date2">Select Date</string>
+    <string name="start_date2">Start Date:</string>
+    <string name="select_price">Select Price</string>
+    <string name="price_from">Price from:</string>
+    <string name="hint_enter_price">Enter price</string>
+
+    <string name="search_hint2">Search for a tourist attraction</string>
+    <string name="category_title2">Vinh Long Tourist Attractions</string>
+    <string name="all2">All</string>
+    <string name="fruit_garden">Fruit Garden</string>
+    <string name="tourist_spot">Tourist Spot</string>
+    <string name="tourist_area">Tourist Area</string>
+    <string name="list_title">List</string>
+
+    <string name="location">📍 Location:</string>
+
+    <string name="personal_journey">Personal Journey</string>
+    <string name="tour_history">Tour Booking History</string>
+    <string name="custom_tour_list">Custom Tour List</string>
+    <string name="lhtv">Contact for consultation</string>
+    <string name="dsyt">Favorite list</string>
+    <string name="settings">Change Language</string>
+    <string name="dg">Review</string>
+    <string name="change_password">Change Password</string>
+    <string name="logout">Log Out</string>
+    <string name="tourcancel">Canceled Tour</string>
+</resources>
